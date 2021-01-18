@@ -1,0 +1,25 @@
+{
+  "name": "genericappandroid",
+  "version": "0.0.1",
+  "description": "Generic App Android",
+  "homepage": "https://github.com/matveikinner/generic-app-android#readme",
+  "license": "MIT",
+  "private": true,
+  "author": "Matvei Kinner",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matveikinner/generic-app-android.git"
+  },
+  "bugs": {
+    "url": "https://github.com/matveikinner/generic-app-android/issues"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "commitlint-config-jira": "^1.4.1",
+    "commitlint-plugin-jira-rules": "^1.4.0",
+    "husky": "^4.3.8"
+  }
+}

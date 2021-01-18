@@ -24,3 +24,6 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+// Import global configurations
+apply from: 'configs/version.config.gradle'
